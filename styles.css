@@ -1,35 +1,132 @@
+/* خطوط وألوان */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Cairo', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-}
-
-h2 {
     color: #333;
 }
 
-footer {
-    background-color: #333;
+h1, h2, h3 {
+    margin: 0;
+    color: #0044cc;
+}
+
+a {
+    text-decoration: none;
+    color: #0044cc;
+}
+
+/* الهيدر */
+header {
+    background-color: #00264d;
     color: #fff;
+    padding: 100px 0;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.cta-button:hover {
+    background-color: #cc7a00;
+}
+
+/* أقسام الخدمات */
+#services {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: #e6f2ff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    flex-basis: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* قسم "من نحن" */
+#about {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* الفوتر */
+footer {
+    background-color: #00264d;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #ff9900;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* تنسيق الشعار */
+.logo {
+    max-width: 150px;  /* تحديد حجم الشعار */
+    height: auto;
+    margin-bottom: 20px;  /* إضافة مسافة تحت الشعار */
+}
+
+/* تنسيق أيقونات وسائل التواصل الاجتماعي */
+.social-icon {
+    width: 40px;  /* حجم الأيقونة */
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);  /* تأثير التكبير عند المرور */
 }
